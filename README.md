@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my journey as a Software Devel
 
 ## 🌟 Live Demo
 
-[View Live Portfolio](https://your-portfolio-url.com) *(Update with your actual deployment URL)*
+[View Live Portfolio](https://sheikhs-portfolio.netlify.app)
 
 ## 📋 Table of Contents
 

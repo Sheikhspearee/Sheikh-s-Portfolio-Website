@@ -169,7 +169,7 @@ Enhance `js/script.js` for:
 **Riyaaz Mahamed**
 - **Email**: [21sheikhspeare@gmail.com](mailto:21sheikhspeare@gmail.com)
 - **Phone**: 073 692 5330
-- **LinkedIn**: [linkedin.com/in/riyaaz-mahamed-21sheikhspeare](https://www.linkedin.com/in/riyaaz-mahamed-21sheikhspeare)
+- **LinkedIn**: [linkedin.com/in/riyaaz-mahamed](https://www.linkedin.com/in/riyaaz-mahamed-21sheikhspeare)
 - **GitHub**: [github.com/Sheikhspearee](https://github.com/Sheikhspearee)
 - **Location**: Johannesburg, Gauteng, South Africa
 

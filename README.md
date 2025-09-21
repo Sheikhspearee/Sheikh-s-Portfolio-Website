@@ -17,7 +17,6 @@ A modern, responsive portfolio website showcasing my journey as a Software Devel
 - [Customization](#customization)
 - [Deployment](#deployment)
 - [Contact](#contact)
-- [License](#license)
 
 ## 🎯 About
 
@@ -173,12 +172,6 @@ Enhance `js/script.js` for:
 - **LinkedIn**: [linkedin.com/in/riyaaz-mahamed-21sheikhspeare](https://www.linkedin.com/in/riyaaz-mahamed-21sheikhspeare)
 - **GitHub**: [github.com/Sheikhspearee](https://github.com/Sheikhspearee)
 - **Location**: Johannesburg, Gauteng, South Africa
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
 
 
 **Built with ❤️ by Riyaaz Mahamed | © 2025 All Rights Reserved**

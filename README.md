@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my journey as a Software Devel
 
 ## 🌟 Live Demo
 
-[View Live Portfolio](https://your-portfolio-url.com) *(Update with your actual deployment URL)*
+[View Live Portfolio](https://sheikhs-portfolio.netlify.app) 
 
 ## 📋 Table of Contents
 
@@ -21,7 +21,7 @@ A modern, responsive portfolio website showcasing my journey as a Software Devel
 
 ## 🎯 About
 
-This portfolio website represents my professional journey as a Software Developer and Cloud Computing Specialist. Currently pursuing my Higher National Diploma in Software Development at WeThinkCode while working towards AWS Solutions Architect Associate and CompTIA Security+ certifications.
+This portfolio website represents my professional journey as a Software Engineer and Cloud Computing Specialist. Currently pursuing my Higher National Diploma in Software Engineering at WeThinkCode while working towards AWS Solutions Architect Associate and CompTIA Security+ certifications.
 
 ### Key Highlights:
 - **Current Role**: Front Desk Administrator & Tech Support at WeThinkCode
@@ -83,10 +83,10 @@ Sheikh-s-Portfolio-Website/
 ├── assets/
 │   ├── images/
 │   │   ├── WhatsApp Image 2024-09-22 at 21.10.50_0e76d274.jpg  # Profile image
-│   │   └── Screenshot (41).png                                  # Project screenshots
+│   │  
 │   └── documents/
 │       ├── Riyaaz Mahamed Resume.pdf                           # Resume file
-│       └── Profile.pdf                                         # LinkedIn profile backup
+|
 ├── docs/                     # Documentation files
 ├── portfolio-website/        # Vite project (alternative setup)
 └── README.md                # Project documentation
@@ -103,7 +103,7 @@ Sheikh-s-Portfolio-Website/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/Sheikh-s-Portfolio-Website.git
+   git clone https://github.com/Sheikhspearee/Sheikh-s-Portfolio-Website.git
    cd Sheikh-s-Portfolio-Website
    ```
 

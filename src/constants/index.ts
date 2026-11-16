@@ -111,6 +111,9 @@ export const experiences: TExperience[] = [
 export const nenOrbs: TNenOrb[] = [
   { name: "Java", label: "Java", color: "#f5c542" },
   { name: "Spring Boot", label: "Spring", color: "#3fcf6a" },
+  { name: "React", label: "React", color: "#7fd4ff" },
+  { name: "Angular", label: "Angular", color: "#e0245e" },
+  { name: "Node.js", label: "Node", color: "#3fcf6a" },
   { name: "JavaScript", label: "JS", color: "#f5c542" },
   { name: "TypeScript", label: "TS", color: "#6f8bff" },
   { name: "SQL", label: "SQL", color: "#7fd4ff" },

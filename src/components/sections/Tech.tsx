@@ -8,6 +8,9 @@ const suits = ["♠", "♥", "♦", "♣"];
 const icons: Record<string, string> = {
   Java: "java",
   "Spring Boot": "spring",
+  React: "react",
+  Angular: "angular",
+  "Node.js": "nodejs",
   JavaScript: "javascript",
   TypeScript: "typescript",
   SQL: "sql",

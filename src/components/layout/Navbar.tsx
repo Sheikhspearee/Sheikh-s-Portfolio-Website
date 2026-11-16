@@ -41,7 +41,7 @@ const Navbar = () => {
         >
           <img src="./logo.svg" alt="logo" className="h-9 w-9 object-contain" />
           <p className="font-display flex cursor-pointer text-[18px] font-bold text-white">
-            Riyaaz<span className="text-gon">&nbsp;|&nbsp;</span>
+            Riyaaz<span className="text-gon hidden sm:inline">&nbsp;|&nbsp;</span>
             <span className="text-gold hidden sm:block">Hunter</span>
           </p>
         </a>

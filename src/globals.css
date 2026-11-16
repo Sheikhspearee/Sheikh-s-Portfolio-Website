@@ -21,6 +21,11 @@ h2,
   letter-spacing: 0.02em;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   background: #06110b;
 }

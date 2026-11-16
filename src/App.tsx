@@ -12,6 +12,7 @@ import {
   StarsCanvas,
 } from "./components";
 import { config } from "./constants/config";
+import Preloader from "./components/layout/Preloader";
 
 const App = () => {
   useEffect(() => {
@@ -20,6 +21,7 @@ const App = () => {
 
   return (
     <div className="bg-primary relative z-0">
+      <Preloader />
       <div className="hero-bg">
         <Navbar />
         <Hero />

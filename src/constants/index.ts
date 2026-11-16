@@ -62,7 +62,7 @@ export const experiences: TExperience[] = [
     title: "Graduate Software Engineer - Full Stack",
     companyName: "BMW IT Hub",
     iconBg: "#1f6b3a",
-    date: "2025 - Present",
+    date: "January 2026 - Present",
     points: [
       "Developed and changed features across the stack: frontend views, backend services and SQL data handling.",
       "Implemented business-logic and configuration changes in backend code, keeping behaviour consistent across environments.",

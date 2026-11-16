@@ -40,13 +40,15 @@ const Hero = () => {
             >
               Get in touch
             </a>
-            <span
-              aria-disabled="true"
-              title="Coming soon"
-              className="font-display border-gold text-gold pointer-events-none cursor-not-allowed select-none rounded-md border px-6 py-3 font-bold uppercase tracking-wider opacity-50"
+            <a
+              href={config.html.resume}
+              download
+              target="_blank"
+              rel="noreferrer"
+              className="font-display border-gold text-gold hover:bg-gold hover:text-primary rounded-md border px-6 py-3 font-bold uppercase tracking-wider transition-colors"
             >
               Download resume
-            </span>
+            </a>
           </div>
         </div>
       </div>

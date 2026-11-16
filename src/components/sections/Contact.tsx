@@ -54,13 +54,15 @@ const Contact = () => (
         ))}
       </ul>
 
-      <span
-        aria-disabled="true"
-        title="Coming soon"
-        className="nen-gradient font-display text-primary pointer-events-none mt-8 inline-block cursor-not-allowed select-none rounded-md px-6 py-3 font-bold uppercase tracking-wider opacity-50"
+      <a
+        href={config.html.resume}
+        download
+        target="_blank"
+        rel="noreferrer"
+        className="nen-gradient glow-btn font-display text-primary mt-8 inline-block rounded-md px-6 py-3 font-bold uppercase tracking-wider"
       >
         Download resume
-      </span>
+      </a>
     </motion.div>
 
     <motion.div

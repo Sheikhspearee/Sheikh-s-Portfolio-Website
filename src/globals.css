@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+h1,
+h2,
+.font-display {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+body {
+  background: #06110b;
+}
+
+.hash-span {
+  margin-top: -100px;
+  padding-bottom: 100px;
+  display: block;
+}
+
+.hero-bg {
+  background:
+    radial-gradient(circle at 80% 20%, rgba(63, 207, 106, 0.18), transparent 45%),
+    radial-gradient(circle at 10% 80%, rgba(245, 197, 66, 0.1), transparent 40%),
+    linear-gradient(180deg, #06110b 0%, #0a1a10 100%);
+}
+
+.black-gradient {
+  background: linear-gradient(to right, #1a2e22, #050c08);
+}
+
+.nen-gradient {
+  background: linear-gradient(135deg, #3fcf6a 0%, #f5c542 100%);
+}
+
+.nen-gradient-v {
+  background: linear-gradient(180deg, #3fcf6a 0%, rgba(63, 207, 106, 0) 100%);
+}
+
+.nen-text {
+  background: linear-gradient(to top, #3fcf6a, #f5c542);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hisoka-text {
+  background: linear-gradient(to top, #e0245e, #f5c542);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* pulsing Nen aura around highlighted elements */
+.aura {
+  animation: aura 2.8s ease-in-out infinite;
+}
+
+@keyframes aura {
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgba(63, 207, 106, 0.25);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(63, 207, 106, 0.6);
+  }
+}
+
+.glow-btn {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.glow-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 25px rgba(63, 207, 106, 0.5);
+}
+
+/* hunter license card */
+.license-card {
+  background:
+    linear-gradient(135deg, rgba(245, 197, 66, 0.08), transparent 40%),
+    linear-gradient(160deg, #12281c, #0a1710);
+  border: 2px solid #f5c542;
+}
+
+.shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    115deg,
+    transparent 40%,
+    rgba(245, 197, 66, 0.22) 50%,
+    transparent 60%
+  );
+  transform: translateX(-120%);
+  animation: shimmer 5s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0%,
+  60% {
+    transform: translateX(-120%);
+  }
+  100% {
+    transform: translateX(120%);
+  }
+}
+
+.skill-card {
+  background:
+    linear-gradient(135deg, rgba(245, 197, 66, 0.1), transparent 45%),
+    linear-gradient(160deg, #12281c, #0a1710);
+  border: 2px solid #f5c542;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-14px) rotate(0deg) !important;
+  box-shadow: 0 0 24px rgba(63, 207, 106, 0.55);
+}
+
+.timeline-hxh .vertical-timeline::before {
+  background: linear-gradient(180deg, #3fcf6a, #f5c542);
+}
+
+::selection {
+  background: #3fcf6a;
+  color: #06110b;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #06110b;
+}
+::-webkit-scrollbar-thumb {
+  background: #2c6a45;
+  border-radius: 6px;
+}

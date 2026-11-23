@@ -1,0 +1,233 @@
+%-------------------------
+% Resume in Latex
+% Author : Riyaaz Mahamed
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+% Tailored for: AI Engineer (Entry) - BMW IT Hub
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Riyaaz Mahamed} \\ \vspace{1pt}
+    \small Software Engineer \textbar\ Aspiring AI Engineer \\ \vspace{1pt}
+    \small 073 692 5330 $|$ \href{mailto:riyaazmahamed@gmail.com}{\underline{riyaazmahamed@gmail.com}} $|$
+    \href{https://www.linkedin.com/in/riyaaz-mahamed}{\underline{linkedin.com/in/riyaaz-mahamed}} $|$
+    \href{https://github.com/Sheikhspearee}{\underline{github.com/Sheikhspearee}} $|$
+    \href{https://sheikhspeares.pages.dev}{\underline{sheikhspeares.pages.dev}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+\small{Full-stack software engineer at BMW IT Hub with backend experience in Java, Spring Boot and C\#/.NET, and hands-on work building LLM-integrated applications: retrieval-augmented generation (RAG) pipelines, Azure OpenAI integration, and agent/tool communication using the Model Context Protocol (MCP). Comfortable across cloud platforms (AWS and Azure), containers (Docker, Kubernetes) and CI/CD. AI-native by habit: I use AI tools daily to build faster and write better code, and hold the Microsoft AI Fluency certification.}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C\#, Java, Python, JavaScript, TypeScript, SQL} \\
+     \textbf{Backend \& Frameworks}{: .NET, Spring Boot, Node.js, React, Angular, Flask, REST APIs} \\
+     \textbf{AI \& LLMs}{: Azure OpenAI, LLM API integration, Retrieval-Augmented Generation (RAG), Model Context Protocol (MCP), AI agent tooling, prompt design} \\
+     \textbf{Cloud \& DevOps}{: Microsoft Azure, AWS, Docker, Kubernetes, CI/CD Pipelines, Git, Linux/Unix} \\
+     \textbf{Practices}{: Production Support, Release Management, Scripting \& Automation, Documentation} \\
+     \textbf{Soft Skills}{: Communication, Mentoring, Teamwork, Problem-solving}
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Graduate Software Engineer -- Full Stack}{Jan. 2026 -- Present}
+      {BMW IT Hub}{Midrand, South Africa}
+      \resumeItemListStart
+        \resumeItem{Develop and change features across the stack on an enterprise digital commerce platform: frontend views, backend services and SQL data handling.}
+        \resumeItem{Implement business-logic and configuration changes in Java backend code, keeping behaviour consistent across environments.}
+        \resumeItem{Take part in release management: preparing builds, coordinating deployments and verifying releases in target environments.}
+        \resumeItem{Investigate production and environment issues end to end, tracing the data flow to the root cause and shipping the fix.}
+        \resumeItem{Write scripts and tooling to automate repetitive build, setup and validation tasks, and apply AI tooling to speed up day-to-day development.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Hackathon Mentor (Volunteer)}{2026}
+      {Geekulcha \& FNB Hackathons}{South Africa}
+      \resumeItemListStart
+        \resumeItem{Mentored teams at the Geekulcha Annual Hackathon (GKHack); a team I mentored won first place.}
+        \resumeItem{Invited to mentor at the FNB App of the Year Hackathon.}
+        \resumeItem{Guided teams on scoping, architecture, debugging and delivering a working solution under time pressure.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Freelance Full-Stack Developer}{Late 2025 -- Present}
+      {Self-employed}{Remote}
+      \resumeItemListStart
+        \resumeItem{Design and build full-stack web applications for clients, from requirements through to deployment.}
+        \resumeItem{Work across frontend, backend and database layers using the Java, JavaScript and Python ecosystems.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Technical Mentor}{Sep. 2025 -- Dec. 2025}
+      {WeThinkCode\_}{Johannesburg, South Africa}
+      \resumeItemListStart
+        \resumeItem{Coached students in Python and programming fundamentals, covering problem-solving, debugging and project work.}
+        \resumeItem{Ran pair-programming and code-review sessions to raise code quality, and taught Git workflows and collaborative development.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Front Desk Administrator \& Tech Support}{Jan. 2025 -- Dec. 2025}
+      {WeThinkCode\_}{Johannesburg, South Africa}
+      \resumeItemListStart
+        \resumeItem{Provided front-line technical support across Windows, macOS, connectivity, printers and internal tools.}
+        \resumeItem{Managed application and appointment systems and maintained documentation to resolve issues quickly.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\textbf{RAG, MCP \& AI Agent Tooling} $|$ Azure OpenAI, MCP, Python}{2025 -- 2026}
+      \resumeItemListStart
+        \resumeItem{Built retrieval-augmented generation (RAG) pipelines against Azure OpenAI to ground LLM responses in custom data sources.}
+        \resumeItem{Worked regularly with the Model Context Protocol (MCP) to connect LLMs and agents to external tools and data sources.}
+        \resumeItem{Experimented with AI agent tooling and prompt/context design to automate and support development tasks.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Snake Game} $|$ C\#, .NET}{2025}
+      \resumeItemListStart
+        \resumeItem{Built a classic Snake game in C\# to learn core language and .NET fundamentals, covering game loop, state management and collision detection.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Fitman Fitness App} $|$ Java, Spring Boot, MySQL, React}{2025}
+      \resumeItemListStart
+        \resumeItem{Building a full-stack fitness application to manage workout plans, track progress and log nutrition.}
+        \resumeItem{Implementing RESTful APIs with Spring Boot and a responsive React frontend.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Africa Preserved} $|$ React, Flask, Gemini API}{2025}
+      \resumeItemListStart
+        \resumeItem{Developed a platform showcasing African heritage sites and cultural history, integrating the Gemini LLM API for content generation, with a Flask backend.}
+        \resumeItem{Collaborated in a team to build responsive frontend interfaces and integrate real-time data storage.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{LiveSign} $|$ Python, TensorFlow, OpenCV}{2025}
+      \resumeItemListStart
+        \resumeItem{Built a real-time sign language translator for the Geekulcha Hackathon, using computer vision to map hand gestures to text and improve accessibility.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Home Lab Environment} $|$ Linux, Docker, Virtualization}{2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Running Linux servers in a virtualized environment on repurposed hardware, using Docker, SSH and file sharing for remote access, private storage and backups.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {WeThinkCode\_}{Sep. 2024 -- Dec. 2025}
+      {Higher National Diploma in Software Engineering}{Johannesburg, South Africa}
+    \resumeSubheading
+      {John Orr Technical High School}{2016 -- 2021}
+      {National Senior Certificate (Matric)}{Johannesburg, South Africa}
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    AWS Certified Cloud Practitioner \\
+    Java Core Certification (Udemy) \\
+    Microsoft AI Fluency Course \\
+    CS50's Introduction to Programming with Python \\
+    CS50's Introduction to Databases with SQL \\
+    AWS Certified Solutions Architect -- Associate (exam scheduled) \\
+    CompTIA Security+ (in progress) \\
+  }}
+\end{itemize}
+
+%-------------------------------------------
+\end{document}

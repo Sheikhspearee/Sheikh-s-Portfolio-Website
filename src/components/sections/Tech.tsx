@@ -7,6 +7,7 @@ const suits = ["♠", "♥", "♦", "♣"];
 
 const icons: Record<string, string> = {
   Java: "java",
+  "C#": "csharp",
   "Spring Boot": "spring",
   React: "react",
   Angular: "angular",
@@ -16,6 +17,7 @@ const icons: Record<string, string> = {
   SQL: "sql",
   Python: "python",
   "AWS Cloud": "aws",
+  Azure: "azure",
   Docker: "docker",
   Kubernetes: "kubernetes",
   Git: "git",

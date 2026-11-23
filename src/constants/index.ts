@@ -110,6 +110,7 @@ export const experiences: TExperience[] = [
 // Skills rendered as Nen orbs (kept to ~10 to stay within browser WebGL context limits)
 export const nenOrbs: TNenOrb[] = [
   { name: "Java", label: "Java", color: "#f5c542" },
+  { name: "C#", label: "C#", color: "#8a2be2" },
   { name: "Spring Boot", label: "Spring", color: "#3fcf6a" },
   { name: "React", label: "React", color: "#7fd4ff" },
   { name: "Angular", label: "Angular", color: "#e0245e" },
@@ -119,6 +120,7 @@ export const nenOrbs: TNenOrb[] = [
   { name: "SQL", label: "SQL", color: "#7fd4ff" },
   { name: "Python", label: "Py", color: "#3fcf6a" },
   { name: "AWS Cloud", label: "AWS", color: "#ff9d3b" },
+  { name: "Azure", label: "Azure", color: "#0a84ff" },
   { name: "Docker", label: "Docker", color: "#7fd4ff" },
   { name: "Kubernetes", label: "K8s", color: "#6f8bff" },
   { name: "Git", label: "Git", color: "#e0245e" },
@@ -135,6 +137,11 @@ export const otherSkills: string[] = [
   "Scripting & Automation",
   "Test Automation",
   "Documentation",
+  "LLM Integration",
+  "Retrieval-Augmented Generation (RAG)",
+  "Model Context Protocol (MCP)",
+  "Azure OpenAI",
+  "AI Agent Tooling",
 ];
 
 export const projects: TProject[] = [
@@ -202,6 +209,17 @@ export const projects: TProject[] = [
       { name: "Python", color: "text-gon" },
       { name: "Scripting", color: "text-gold" },
       { name: "Automation", color: "text-killua" },
+    ],
+  },
+  {
+    name: "AI Agent & LLM Tooling",
+    icon: "🧠",
+    description:
+      "Built retrieval-augmented generation (RAG) pipelines against Azure OpenAI and worked regularly with the Model Context Protocol (MCP) to connect LLMs and agents to external tools and data sources.",
+    tags: [
+      { name: "AzureOpenAI", color: "text-gon" },
+      { name: "RAG", color: "text-gold" },
+      { name: "MCP", color: "text-killua" },
     ],
   },
 ];
